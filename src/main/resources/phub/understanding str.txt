@@ -1,0 +1,66 @@
+https://partner.booking.com/en-us/help/commission-invoices-tax/local-taxes/understanding-short-term-rental-withholding-tax-partners
+
+Understanding short-term rental withholding tax for partners in Italy
+Updated 3 months ago | 4 min read
+Save this page
+Italian short-term rental (STR) tax rules require us to collect income tax from partners who rent out residential properties in Italy and meet a number of other conditions.
+
+What's on this page:
+What you need to know
+Options for STR tax payments
+Which partners these rules apply to
+What you need to do
+How to add or update your VAT number
+What you need to know
+As required by Italian STR tax rules, we're responsible for collecting a 21% income tax from partners in Italy who these rules apply to.
+
+We calculate the 21% income tax based on the total transaction value of reservations where we facilitate payment via Payments by Booking.com for stays of 30 days or less (excluding other taxes such as VAT and city tax). We pay this tax to the Italian tax authorities on our partners’ behalf on a monthly basis.
+
+We’ll provide an annual certificate showing the total tax we collect and pay on your behalf. The certificates will be sent within three months after the calendar year ends. You can use the certificate to claim the amount when filing your personal income tax return. Remember, you’re responsible for meeting your personal income tax obligations.
+
+Options for STR tax payments
+If STR tax rules apply to you, here’s how your tax will be managed based on your payout type:
+
+
+You have two options for how the STR tax will be handled:
+
+Automatic deduction – You’ll receive payouts with the commission and payment charge already deducted from the payout. We’ll deduct the STR tax and remit it to the Italian tax authorities directly, so you won’t have to do anything.
+
+Monthly payment request – You’ll receive payouts including the commission and payment charge. We’ll send you a payment request each month for the STR tax that you need to pay us, so we can remit it to the Italian tax authorities.
+
+Which partners these rules apply to
+These STR tax rules apply to you if you’ve opted into Payments by Booking.com and meet all of these conditions:
+
+You rent out between one and four properties registered as a residential property in the Italian land registry (Cadastral categories A1 to A11, except A10 offices).
+
+You don’t offer additional services such as breakfast, lunch, dinner, meal plans, rental cars, or tour-related services/arrangements.
+
+You don’t have a VAT number or haven’t provided us with your VAT number.
+
+We'll let you know if these conditions change due to amendments to Italian law or clarifications from the Italian tax authorities.
+
+
+Tax withholding and certification for 2024: For the 2024 financial year, the STR taxes are being withheld from payouts to partners determined to be in the scope of the STR rules, based on the criteria outlined above and the information we have. We’ll issue certificates for all taxes withheld for the 2024 financial year to partners by March 31, 2025. Partners can use these certificates to claim credit for the taxes withheld by us and paid to the Italian tax authorities in their personal income tax returns.
+What you need to do
+Starting in the 2025 financial year, we’ll rely on the declarations submitted by partners on the Extranet to confirm their status under STR tax rules. Based on this, partners will be marked as either “Opt-in” or “Opt-out” of these rules for STR tax-withholding purposes.
+
+If you have a VAT number and have provided it on the Extranet, we’ll pre-fill your declaration to exclude VAT-registered partners from STR tax rules.
+
+By December 31, confirm your status by following these steps:
+
+Sign in to the Extranet
+Click Finance, then Finance settings.
+Click General Finance, then select Short-Term Rental (STR) taxes
+Read the information provided and confirm your applicable STR tax status
+Add or update your VAT number if you have one
+Partners without a VAT number who don’t complete their declaration on the Extranet by December 31, 2024 will automatically be considered to be in the scope of the STR withholding tax starting January 1, 2025.
+
+How to add or update your VAT number
+If you have a VAT number, add it on the Extranet. If you’ve already submitted your VAT number, make sure it’s still up to date. Here’s how:
+
+Sign in to the Extranet
+Click the Finance menu
+Click VAT Details or Finance settings, VAT Details, then Edit details
+Enter or change your VAT number
+If you can’t update your VAT number on the Extranet, send us a message via the Extranet so we can do it for you.
+

@@ -1,0 +1,75 @@
+https://partner.booking.com/en-us/help/commission-invoices-tax/multi-property/payments-and-invoicing-multi-property-partners
+
+Payments and invoicing for multi-property partners
+Updated 1 month ago | 5 min read
+Save this page
+If you have multiple properties registered on our platform and a group contract with us, you can view a consolidated statement for all properties in your group account and pay your invoices in bulk.
+
+In this article
+
+Viewing multiple invoices
+Paying multiple invoices
+Direct debit for groups
+Viewing multiple invoices
+If you manage multiple properties, you can view your past and current invoices on the Extranet by clicking Finance, or Finance then selecting Invoices while signed in to your group account.
+
+In this tab, you can select the month you want to view the invoice for, and download the invoice as a PDF or in Excel. The status of the invoice and the total balance can be viewed here as well.
+
+From the Finance tab, you can:
+
+See the total amount due across all your properties
+Check, download, and print invoices for all your properties
+Download a breakdown of all your invoices in one spreadsheet
+Download a full reservation statement of all bookings across all your properties in one spreadsheet
+Paying multiple invoices
+If you’re on Payments by Booking.com with bank transfer payouts, you don't have to pay invoices or commissions if:
+
+We manage all the payment collection from your guests
+You don't accept credit cards at the property as a payment method
+However, there are exceptions to the rule above – mainly:
+
+If you’re a multi-property partner
+If you’re part of the Stripe payment model within Payments by Booking.com
+If you’re on Payments by Booking.com with bank transfer payouts, you’ll have to pay invoices or commissions if:
+
+We manage the payment collection only for some of your reservations
+You accept credit cards as a payment method
+For more information, read about paying invoices.
+
+For partners with payments other than Payments by Booking.com – bank transfer, we don’t create one consolidated invoice for multiple-property owners. However, you can pay all invoices that appear in your group account’s Finance tab at once by manual bank transfer. Find the bank details on one of your invoices or under the Finance tab, then select Finance settings.
+
+Include the property ID for at least one of your properties in the bank transfer’s payment description and submit your payment breakdown to the Finance team through the Extranet’s Inbox. This needs to be sent from the inbox of one of your properties – the group account doesn’t have this ability.
+
+
+
+
+Note: Our team needs the payment breakdown to allocate the correct amount for payments per property.
+
+
+You can send this to us by following these steps on the Extranet:
+
+- Go to Inbox and select Booking.com messages
+
+- In the drop-down under Contact us, select Compose new message or click See contact options
+
+- Select Invoices and commission as the topic and Payment confirmation as the subtopic
+
+Direct debit for groups
+Direct debit authorizes Booking.com to automatically collect payments from your bank account when they're due.
+
+On top of being the safest, most cost-effective way to pay invoices, there are several other reasons to use direct debit. For example, you’ll save on transaction costs and will never have to worry about making payments on time because everything is automated. You'll get notifications each time a transaction takes place, plus payments are guaranteed with options for refunds if you get debited incorrectly.
+
+
+
+
+If you're based in the eurozone and use Single Euro Payments Area (SEPA) direct debit, the funds are recoverable by your bank for up to eight weeks. This period extends to 13 months if you have a valid reason.
+
+
+
+If you want to switch your payment method to direct debit (not available for all groups/countries), reach out to us by following these steps:
+
+- Go to Inbox and select Booking.com messages
+
+- In the drop-down under Contact us, select Compose new message or click See contact options
+
+- Select Invoices and commission as the topic and Other as the subtopic
