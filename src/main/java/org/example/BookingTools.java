@@ -88,7 +88,7 @@ public class BookingTools {
         return property.getPaymentMethod();
     }
 
-    @Tool(description = "get property location country")
+    @Tool(description = "get country where the property is located")
     public String getPropertyLocation(String propertyId) {
         Property property = properties.get(propertyId);
         if (property == null) {
