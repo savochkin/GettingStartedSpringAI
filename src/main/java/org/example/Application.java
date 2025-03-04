@@ -24,9 +24,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.event.EventListener;
 import org.springframework.core.io.Resource;
 import org.springframework.ai.document.Document;
+import reactor.core.publisher.Flux;
 
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 @SpringBootApplication
 public class Application {
@@ -53,7 +55,66 @@ public class Application {
 
     @EventListener(ApplicationReadyEvent.class)
     public void run() {
-        startCliChat();
+        startCliFluentChat();
+    }
+
+    private void startCliFluentChat() {
+        Scanner scanner = new Scanner(System.in);
+        String systemMessage = "You are a booking.com AI assistant for partners. " +
+                "You help partner answer question about their financial related topics." +
+                "Respond in a friendly, helpful, and joyful manner." +
+                "Before answering the question you MUST have all the information you need to answer the question." +
+                "Here are the topics that you can answer: 1) how to pay invoices; 2) taxes relevant for the property. " +
+                // istruction on how to answer about paying invoices
+                "In order to answer how to pay invoices you MUST know the property ID, property location and its payment method. " +
+                "First answer based on the payment method and country and then suggest local payment methods available in that country." +
+                // instruction on how to answer about taxes
+                "In order to answer tax related question you generally need to know the property location." +
+                "Explain in details your reasoning before giving the answer. " +
+                "Use the provided functions to get the information you need." +
+                "Use parallel function calling if required." +
+                "If you are asked about any other topic, tell politely that you cannot answer the question. " +
+                "Use the following context to answer questions when relevant: ";
+
+        System.out.println("Welcome to the Booking.com Partner Assistant! Type 'exit' to quit.");
+
+        System.out.print("\nYou: ");
+        while (true) {
+            String userInput = scanner.nextLine();
+
+            if (userInput.equalsIgnoreCase("exit")) {
+                System.out.println("Goodbye!");
+                break;
+            }
+
+            // Create prompt with context
+            Prompt prompt = new Prompt(List.of(
+                    //new SystemMessage(systemMessage + "\nContext: " + context),
+                    new SystemMessage(systemMessage),
+                    new UserMessage(userInput)
+            ));
+
+            Flux<String> flux = chatClient
+                    .prompt()
+                    .system(systemMessage)
+                    .user(userInput)
+                    .tools(bookingTools)
+                    .advisors(memoryAdvisor, qaAdvisor)
+                    .stream()
+                    .content();
+
+            System.out.print("Assistant: ");
+            flux.subscribe(
+                chunk -> System.out.print(chunk),
+                error -> System.err.println("Error: " + error),
+                () -> {
+                    System.out.println(); // New line when stream completes
+                    System.out.print("\nYou: "); // Move the prompt here
+                }
+            );
+        }
+
+        scanner.close();
     }
 
     private void startCliChat() {
@@ -98,18 +159,6 @@ public class Application {
                 break;
             }
 
-//            // First, search for relevant documents
-//            List<Document> relevantDocs = vectorStore.similaritySearch(userInput);
-//            String context = relevantDocs.stream()
-//                    .map(Document::getText)
-//                    .reduce("", (a, b) -> a + "\n" + b);
-//
-//            logger.info("Relevant docs found: " + relevantDocs.size());
-//            relevantDocs.forEach(doc -> {
-//                        logger.info("Doc size: " + doc.getText().length());
-//                        logger.info("\n----\nDoc preview: " + doc.getText().substring(0, Math.min(doc.getText().length(), 200)) + "...");
-//                    }
-//            );
             // Create prompt with context
             Prompt prompt = new Prompt(List.of(
                 //new SystemMessage(systemMessage + "\nContext: " + context),
